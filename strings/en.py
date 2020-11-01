@@ -4,7 +4,7 @@
 # Part of the translation by https://github.com/DarrenWestwood
 
 # Currency symbol
-currency_symbol = "€"
+currency_symbol = "$"
 
 # Positioning of the currency symbol
 currency_format_string = "{symbol} {value}"
@@ -55,11 +55,11 @@ csv_caption = "A 📄 .csv file containing all transactions stored in the bot da
               " the data."
 
 # Conversation: the start command was sent and the bot should welcome the user
-conversation_after_start = "Hello!\n" \
-                           "Welcome to greed!\n" \
-                           "This is the 🅱️ <b>Beta</b> version of the software.\n" \
-                           "It is fully usable, but there may be some bugs are still present.\n" \
-                           "If you find any, please report them at https://github.com/Steffo99/greed/issues."
+conversation_after_start = "💰Welcome to Infinity Fullz Shop💰\n" \
+                           "Im the 🐐🔌 thats gonna make you 💵Rich🤑!\n" \
+                           "💸We have what it takes to become Finalcially Stable for LIFE💸!\n" \
+                           "We specialize in Fresh 👤FULLZ+DL/CS,🏦BANK DROPS,☔️GRUB,📚GUIDES,🛠SPAMTOOLS.\n" \
+                           "If you need anything thats not listed PM support and we will list the product if we have it"
 
 # Conversation: to send an inline keyboard you need to send a message with it
 conversation_open_user_menu = "What would you like to do?\n" \
@@ -90,17 +90,17 @@ conversation_admin_select_product_to_delete = "❌ What product do you want to d
 conversation_admin_select_user = "Select an user to edit."
 
 # Conversation: click below to pay for the purchase
-conversation_cart_actions = "<i>Add products to cart by scrolling up and pressing the Add button below" \
-                            " the products you want to add to the cart. When you're done, go back to this message and" \
-                            " press the Done button below.</i>"
+conversation_cart_actions = "<i>Add products you want to buy to your cart by pressing the Add to Cart button " \
+                            " below each product. When you're done, go back to this message and" \
+                            " press the Done button.</i>"
 
 # Conversation: confirm the cart contents
 conversation_confirm_cart = "🛒 Your cart contains the following products:\n" \
                             "{product_list}" \
                             "Total: <b>{total_cost}</b>\n" \
                             "\n" \
-                            "<i>If you want to proceed, press the Done button below this message.\n" \
-                            "To cancel, press the Cancel button.</i>"
+                            "<i>If your done shopping and are ready to Checkout press the Done button.\n" \
+                            "Change your mind? , press the Cancel button.</i>"
 
 # Conversation: the user activated the live orders mode
 conversation_live_orders_start = "You are in <b>Live Orders</b> mode\n" \
@@ -126,11 +126,12 @@ conversation_switch_to_user_mode = " You are switching to 👤 Customer mode.\n"
                                    "If you want to go back to the 💼 Manager menu, restart the conversation with /start."
 
 # Notification: the conversation has expired
-conversation_expired = "🕐  I haven't received any messages in a while, so I closed the conversation to save" \
-                       " resources.\n" \
-                       "If you want to start a new one, send a new /start command."
+conversation_expired = "🕐 Dont forget to check us out DAILY we post new UPBATED BASES EVERYDAY @6am PST \n" \
+                       "Are you a reseller looking to buy in BULK?🔌\n" \
+		       "☎️Contact the Shop Admin {shopkeepers} for Bulk Pricing & Details!" 
+		       
 
-# User menu: order
+# User menu: order 
 menu_order = "🛒 Orders"
 
 # User menu: order status
@@ -143,7 +144,7 @@ menu_add_credit = "💵 Add funds"
 menu_bot_info = "ℹ️ Bot info"
 
 # User menu: cash
-menu_cash = "💵 With cash"
+menu_cash = "💲 With $Cashapp"
 
 # User menu: credit card
 menu_credit_card = "💳 By credit card"
@@ -280,7 +281,7 @@ ask_credit = "How do you want to change the customer's credit?\n" \
              "\n" \
              "<i>Send a message containing the amount.\n" \
              "Use the sign </i><code>+</code><i> to add credit to the customer's account," \
-             " and the sign </i><code>-</code><i> to deduce it.</i>"
+             " and the sign </i><code>-</code><i> to reduce it.</i>"
 
 # Header for the edit admin message
 admin_properties = "<b>Permissions of {name}:</b>"
@@ -308,10 +309,12 @@ edit_current_value = "The current value is:\n" \
                      "\n" \
                      "<i>Press the Skip button below this message to keep the same value.</i>"
 
-# Payment: cash payment info
-payment_cash = "You can pay in cash at the physical location of the store.\n" \
-               "Pay at checkout, and give this id to the manager:\n" \
-               "<b>{user_cash_id}</b>"
+# Payment: cashapp payment info
+payment_cash = "You can now load funds to your wallet with <b>$Cashapp!<b>\n" \
+ 	       "Admin will add the amount to wallet in <b>30min-1hr<b> .\n" \
+               "To add funds with $cashapp Send <b>{amount}</b> to:" \
+	       "<b>$BeachsideRealEstate<b> include For:<b>{user_cash_id}</b>" 
+               
 
 # Payment: invoice amount
 payment_cc_amount = "How many funds do you want to add to your wallet?\n" \
@@ -351,19 +354,16 @@ refund_reason = "Refund reason:\n" \
                 "{reason}"
 
 # Info: informazioni sul bot
-bot_info = 'This bot is using <a href="https://github.com/Steffo99/greed">greed</a>,' \
-           ' a framework by @Steffo for Telegram payments released under the' \
-           ' <a href="https://github.com/Steffo99/greed/blob/master/LICENSE.txt">' \
-           'Affero General Public License 3.0</a>.\n'
+bot_info = "This Bot was customized for @Infinity_fullz_Bot" \
+	   "Big Thanks to DarrenWestwood & Steffo99"
 
 # Help: guide
-help_msg = "greed's guide is available at this address:\n" \
-           "https://docs.google.com/document/d/1f4MKVr0B7RSQfWTSa_6ZO0LM4nPpky_GX_qdls3EHtQ/"
+help_msg = "⚠️This section is still under construction!⚠️"
 
 # Help: contact shopkeeper
-contact_shopkeeper = "Currently, the staff available to provide user assistance is composed of:\n" \
+contact_shopkeeper = "Currently, the admin available to provide user assistance is:\n" \
                      "{shopkeepers}\n" \
-                     "<i>Click / Tap one of their names to contact them in a Telegram chat.</i>"
+                     "<i>Click / Tap the name to send a message in a Telegram chat.</i>"
 
 # Success: product has been added/edited to the database
 success_product_edited = "✅ The product has been successfully added/modified!"
@@ -391,8 +391,8 @@ error_nonprivate_chat = "⚠️ This bot only works in private chats."
 
 # Error: a message was sent in a chat, but no worker exists for that chat.
 # Suggest the creation of a new worker with /start
-error_no_worker_for_chat = "⚠️ The conversation with the bot was interrupted.\n" \
-                           "To restart it, send the /start command to the bot."
+error_no_worker_for_chat = "🤖 The conversation with the bot was interrupted.\n" \
+                           "To restart it, send the /start command to the bot🤖."
 
 # Error: add funds amount over max
 error_payment_amount_over_max = "⚠️ The maximum amount that can be added in a single transaction is {max_amount}."
